@@ -1,0 +1,197 @@
+.login-signup-main {
+    box-shadow: 0 16px 32px 0 rgb(244, 242, 242);
+    transition: 0.3s;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    border-radius: 20px;
+   
+
+}
+
+.login-signup-main>h2 {
+    text-align: center;
+}
+
+.loginsignupimage {
+    height: auto;
+    width: 40%;
+    margin: 0;
+    padding-right: 4em;
+}
+
+.login-signup-main:hover {
+    box-shadow: 0 8px 16px 0 rgb(246, 246, 246);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    padding-bottom: 1em;
+    content: "";
+    clear: both;
+    
+
+
+}
+
+.form-wrapper {
+    height: auto;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(249, 249, 249);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.form-wrapper.login-form {
+    transform: scale(1);
+}
+
+.form-wrapper.signup-form {
+    transform: scale(0);
+}
+
+.form-wrapper.signup-form.visible {
+    transform: scale(1);
+}
+
+.paragraph{
+    color: white;
+}
+
+.secandorybutton{
+    width: 100px;
+    padding: 10px;
+    background-color: #da4ea2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.link {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #da4ea2;
+}
+
+
+label {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+    font-size: 16px;
+    color: white;
+   
+
+}
+
+option {
+    font-size: 16px;
+    padding: 2px;
+
+}
+
+select {
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=file],
+select {
+    width: 50vh;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: black;
+    display: block;
+    font-size: 16px;
+}
+
+input[type=text]:hover {
+
+    border-color: blue;
+}
+
+input[type=email]:hover {
+
+    border-color: blue;
+}
+
+input[type=password]:hover {
+
+    border-color: blue;
+}
+
+input[type=file]:hover {
+
+    border-color: blue;
+    
+}
+
+textarea:hover {
+
+    border-color: blue;
+}
+
+select:hover {
+    border-color: blue;
+}
+
+.login-signup-toggle {
+    color: #da4ea2;
+
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .login-signup-main {
+        margin: 30px;
+        width: 90%;
+    }
+
+    .loginsignupimage {
+        display: none;
+
+
+    }
+
+    .contactUs{
+        display: none;
+    }
+}
+
+.error{
+    color: red;
+}
+
+.contactUs{
+    width: 40%;
+    height: auto;
+    margin-left: 15%;
+    margin-bottom: 80px;
+    top: 0%;
+}
+
+.userRole{
+    margin-bottom: 10px;
+
+}

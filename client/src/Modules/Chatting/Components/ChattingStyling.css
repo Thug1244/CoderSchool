@@ -1,0 +1,162 @@
+.avatar {
+    width: 50%;
+    height: auto;
+    border-radius: 80%;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+    
+}
+
+.logoutButton{
+    width: 100px;
+    padding: 10px;
+    background-color: #da4ea2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.drawer{
+    width: 200px;
+    padding: 5%;
+}
+
+.drawer>h2{
+    color: #da4ea2;
+}
+
+.searchButton{
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    background-color: #da4ea2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 10px;
+}
+
+.chattingTitle{
+    color: #da4ea2;
+    
+}
+@media (max-width: 768px) {
+    .chattingTitle{
+        display: none;
+       
+    }
+}
+
+.searchResultMain {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.searchResultMain:hover {
+    background-color:#da4ea2;
+    color: white;
+    width: 100%;
+}
+
+.searchResultMain .MuiAvatar-root {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.searchResult {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.searchResult b {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #15b8b0;
+    cursor: pointer;
+}
+
+.closeIcon{
+    width: 20px;
+    height: auto;
+    padding-left: 5px;
+
+}
+
+.UserBadgeItem{
+    display: inline-flex ;
+}
+
+.createGroup{
+    padding: 10px;
+    background-color: #e382bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.SingleChat{
+    font-size: "28px";
+    width: 100%;
+    height: 60px;
+    /*background-color: #f2eded;*/
+    display: flex;
+    flex-direction: "row";
+    /*justify-content: space-between;*/
+    align-items: center;
+    
+    
+    
+}
+
+.IconButton{
+    display: flex;
+    width: "50px";
+    
+    
+
+}
+@media only screen and (max-width: 600px) {
+    .IconButton {
+        font-size: 24px;
+    }
+
+    text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .IconButton {
+        font-size: 32px;
+    }
+
+    text {
+        font-size: 28px;
+    }
+}
+
+.SingleChatMain{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+
+

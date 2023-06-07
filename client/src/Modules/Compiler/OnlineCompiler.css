@@ -1,0 +1,8 @@
+.compilerMain{
+    box-shadow: 0 16px 32px 0 rgb(244, 242, 242);
+        transition: 0.3s;
+        width: 90%;
+        height: 50%;
+        margin: auto;
+        border-radius: 20px;
+}

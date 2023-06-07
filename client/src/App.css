@@ -1,0 +1,38 @@
+body{
+    background-image: url('../public/Images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+h2{
+    color: white;
+}
+  
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.secandoryButton {
+    height: auto;
+    padding: 10px;
+    background-color: #da4ea2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 30px;
+}
+
+Link{
+    text-decoration: none;
+}

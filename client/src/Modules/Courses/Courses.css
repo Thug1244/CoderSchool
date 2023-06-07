@@ -1,0 +1,218 @@
+.MainUploadCourseBlock{
+    display: flex;
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+}
+
+.ChildUploadCourseBlock{
+    cursor: pointer;
+    box-shadow: 0 16px 32px 0 rgb(139, 115, 115);
+    transition: 0.3s;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+label {
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #da4ea2;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=file],
+select {
+    display: flex;
+    width: 50vh;
+    padding: 12px 12px 12px 12px;
+    margin-left: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: black;
+    display: block;
+    font-size: 16px;
+}
+
+textarea{
+    display: flex;
+        width: 50vh;
+        padding: 12px 12px 12px 12px;
+        margin-left: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        color: black;
+        display: block;
+        font-size: 16px;
+}
+
+.CourseDeatilsMain{
+    display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+        color: white;
+    
+    
+}
+
+@media (max-width: 767px) {
+    .CourseDeatilsMain {
+        grid-template-columns: 1fr;
+            grid-auto-flow: row;
+    }
+        .RightCourseDetailMain {
+            margin-left: 30px;
+            margin-bottom: 50px;
+        }
+}
+
+.LeftCourseDetailMain{
+    box-shadow: 0 16px 32px 0 rgb(244, 242, 242);
+    transition: 0.3s;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10%;
+    
+}
+
+.RightCourseDetailMain{
+box-shadow: 0 16px 32px 0 rgb(244, 242, 242);
+    transition: 0.3s;
+    width: 80%;
+    height: 65vh;
+    margin-right: 20%;
+    margin-top: 20%;
+    border-radius: 20px;
+    padding: 20px;
+    float: right;
+}
+
+.RightCourseDetailMain:hover {
+    box-shadow: 0 8px 16px 0 rgb(246, 246, 246);
+}
+
+.secandoryCourseDetails{
+    display: inline-flex;
+    flex-wrap: wrap;
+    box-shadow: 0 16px 32px 0 rgb(244, 242, 242);
+    width: 50%;
+    margin-left:6%;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+        
+}
+
+.enrollButton{
+    width: 150px;
+    height: 50px;
+        padding: 10px;
+        background-color: #da4ea2;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        float: right;
+        margin-top: 5%;
+        
+}
+
+.upload-container{
+    display: flex;
+        background-color: white;
+        height: auto;
+        width: auto;
+        padding-top: 90px;
+        padding-bottom: 90px;
+}
+
+.plyr-video {
+    max-width: 500px;
+    max-height: 300px;
+    margin: 0 auto;
+}/* The Modal (background) */
+
+.titlemodal {
+
+display: block;
+
+    /* Hidden by default */
+    position: relative;
+    /* Stay in place */
+    z-index: 10;
+    /* Sit on top */
+    border: 1px solid white;
+    width: max-content;
+    border-radius: 15px;
+margin-top: 30%;
+padding-right: 15px;
+}
+
+.thumbnailmodal{
+    margin-top: 20%;
+    /* Hidden by default */
+        position: relative;
+        /* Stay in place */
+        z-index: 10;
+        /* Sit on top */
+      border: 1px solid white;
+        width: max-content;
+        margin-left: 10%;
+        border-radius: 15px;
+        padding-right: 15px;
+}
+
+.descriptionmodal{
+        margin-top: 5%;
+
+            /* Hidden by default */
+            position: relative;
+            /* Stay in place */
+            z-index: 10;
+border: 1px solid white;
+            width: max-content;
+            border-radius: 15px;
+            padding-right: 15px;
+}
+
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Coursesbutton {
+    width: 100px;
+    padding: 10px;
+    background-color: #da4ea2;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin: 10px;
+
+
+}
